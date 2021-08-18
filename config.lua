@@ -135,4 +135,15 @@ Config.PedList = {
 		coords = vector4(-3169.38, 1043.18, 20.86, 50.0), -- Great Ocean Highway
 		gender = 'female'
 	},
+	{
+		model = `ig_paper`, -- Model name as a hash.
+		coords = vector4(-545.03, -204.10, 38.22, 206.0), -- Hawick Ave (X, Y, Z, Heading)
+		gender = 'male', -- The gender of the ped, used for the CreatePed native.
+		animDict = 'amb@world_human_clipboard@male@base', -- Animations for the npc to use
+		animName = 'base', -- anim name
+		hasProp = true, -- Indicate if the entity has a prop
+		prop = 'p_amb_clipboard_01', -- what prop
+		propBone = 36029, -- What bone
+		propPlacement = {0.16, 0.08, 0.1, -130.0, -50.0, 0.0}, -- placement offset
+	},
 }
