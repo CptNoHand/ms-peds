@@ -26,6 +26,7 @@ Citizen.CreateThread(function()
 					end
 				end
 				DeletePed(spawnedPeds[k].spawnedPed)
+				DeleteObject(spawnedPeds[k].spawnedProp)
 				spawnedPeds[k] = nil
 			end
 		end
