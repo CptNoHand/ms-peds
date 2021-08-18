@@ -9,7 +9,12 @@ Citizen.CreateThread(function()
 
 			if distance < Config.DistanceSpawn and not spawnedPeds[k] then
 				local spawnedPed = NearPed(v.model, v.coords, v.gender, v.animDict, v.animName, v.scenario)
-				spawnedPeds[k] = { spawnedPed = spawnedPed }
+				local spawnedProp =  nil
+				if v.hasProp then
+					local PropPl1, PropPl2, PropPl3, PropPl4, PropPl5, PropPl6 = table.unpack(v.propPlacement)
+					spawnedProp = AddProp(spawnedPed, v.prop, v.propBone, PropPl1, PropPl2, PropPl3, PropPl4, PropPl5, PropPl6)
+				end
+				spawnedPeds[k] = { spawnedPed = spawnedPed, spawnedProp = spawnedProp }
 			end
 
 			if distance >= Config.DistanceSpawn and spawnedPeds[k] then
@@ -17,6 +22,7 @@ Citizen.CreateThread(function()
 					for i = 255, 0, -51 do
 						Citizen.Wait(50)
 						SetEntityAlpha(spawnedPeds[k].spawnedPed, i, false)
+						SetEntityAlpha(spawnedPeds[k].spawnedProp, i, false)
 					end
 				end
 				DeletePed(spawnedPeds[k].spawnedPed)
@@ -73,4 +79,19 @@ function NearPed(model, coords, gender, animDict, animName, scenario)
 	end
 
 	return spawnedPed
+end
+
+function AddProp(ped, prop1, bone, off1, off2, off3, rot1, rot2, rot3)
+	local x,y,z = table.unpack(GetEntityCoords(ped))
+
+	if not HasModelLoaded(prop1) then
+	  LoadPropDict(prop1)
+	end
+
+	local prop = CreateObject(GetHashKey(prop1), x, y, z+0.2,  true,  true, true)
+	AttachEntityToEntity(prop, ped, GetPedBoneIndex(ped, bone), off1, off2, off3, rot1, rot2, rot3, true, true, false, true, 1, true)
+
+	SetModelAsNoLongerNeeded(prop1)
+
+	return prop
 end
