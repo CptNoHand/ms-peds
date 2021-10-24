@@ -135,6 +135,12 @@ Config.PedList = {
 		coords = vector4(-3169.38, 1043.18, 20.86, 50.0), -- Great Ocean Highway
 		gender = 'female'
 	},
+
+	{
+		model = `a_m_y_stwhi_01`,
+		coords = vector4(1197.26, -3253.59, 7.1, 90.0), -- Export
+		gender = 'male'
+	},
 	
 	{
 		model = `ig_paper`, -- Model name as a hash.
