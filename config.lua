@@ -4,7 +4,7 @@ Config.Invincible = true -- Is the ped going to be invincible?
 Config.Frozen = true -- Is the ped frozen in place?
 Config.Stoic = true -- Will the ped react to events around them?
 Config.FadeIn = true -- Will the ped fade in and out based on the distance. (Looks a lot better.)
-Config.DistanceSpawn = 20.0 -- Distance before spawning/despawning the ped. (GTA Units.)
+Config.DistanceSpawn = 50.0 -- Distance before spawning/despawning the ped. (GTA Units.)
 
 Config.MinusOne = true -- Leave this enabled if your coordinates grabber does not -1 from the player coords.
 
@@ -141,6 +141,24 @@ Config.PedList = {
 		coords = vector4(1197.26, -3253.59, 7.1, 90.0), -- Export
 		gender = 'male'
 	},
+
+	{
+		model = `a_m_y_stwhi_01`,
+		coords = vector4(5092.44, -4683.1, 2.41, 75.46), -- FIB Heist Sell Point
+		gender = 'male'
+	},
+
+	{
+		model = `a_m_y_stwhi_01`,
+		coords = vector4(1727.51, 3295.2, 41.22, 285.43), -- FIB Heist Plane Guy
+		gender = 'male'
+	},
+
+	{
+        model = `csb_trafficwarden`,
+        coords = vector4(1193.33, -1474.11, 34.86, 267.44), -- Firejob
+        gender = 'male'
+    },
 	
 	{
 		model = `ig_paper`, -- Model name as a hash.
