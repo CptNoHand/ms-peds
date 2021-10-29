@@ -144,7 +144,7 @@ Config.PedList = {
 
 	{
 		model = `a_m_y_stwhi_01`,
-		coords = vector4(5092.44, -4683.1, 2.41, 75.46), -- FIB Heist Sell Point
+		coords = vector4(4991.15, -5884.25, 20.56, 36.2), -- FIB Heist Sell Point
 		gender = 'male'
 	},
 
