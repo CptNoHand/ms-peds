@@ -159,6 +159,240 @@ Config.PedList = {
         coords = vector4(1193.33, -1474.11, 34.86, 267.44), -- Firejob
         gender = 'male'
     },
+
+	{
+        model = `a_m_m_afriamer_01`,
+        coords = vector4(-46.84, -1758.19, 29.42, 48.94), -- 24/7
+        gender = 'male'
+    },
+
+	{
+        model = `a_f_y_hipster_02`,
+        coords = vector4(24.5, -1346.21, 29.5, 269.3), -- 24/7
+        gender = 'female'
+    },
+
+	{
+        model = `a_m_y_beachvesp_01`,
+        coords = vector4(-1171.46, -1572.66, 4.66, 86.65), -- 24/7
+        gender = 'male'
+    },
+
+	{
+        model = `a_f_o_ktown_01`,
+        coords = vector4(1134.19, -983.0, 46.42, 282.11), -- 24/7
+        gender = 'female'
+    },
+
+	{
+        model = `a_f_y_gencaspat_01`,
+        coords = vector4(-706.16, -913.83, 19.22, 90.84), -- 24/7
+        gender = 'female'
+    },
+
+	{
+        model = `a_f_m_soucentmc_01`,
+        coords = vector4(-1222.08, -908.46, 12.33, 38.67), -- 24/7
+        gender = 'female'
+    },
+
+	{
+        model = `a_m_y_hipster_01`,
+        coords = vector4(1164.78, -322.82, 69.21, 102.88), -- 24/7
+        gender = 'male'
+    },
+
+	{
+        model = `a_m_y_vinewood_02`,
+        coords = vector4(-1486.35, -377.92, 40.16, 136.14), -- 24/7
+        gender = 'male'
+    },
+
+	{
+        model = `a_f_y_skater_01`,
+        coords = vector4(-634.97, 235.6, 81.88, 271.42), -- 24/7
+        gender = 'female'
+    },
+
+	{
+        model = `a_f_y_eastsa_03`,
+        coords = vector4(372.67, 327.08, 103.57, 257.35), -- 24/7
+        gender = 'female'
+    },
+
+	{
+        model = `a_f_o_salton_01`,
+        coords = vector4(-2966.45, 390.75, 15.04, 86.46), -- 24/7
+        gender = 'female'
+    },
+
+	{
+        model = `a_m_m_bevhills_02`,
+        coords = vector4(-3039.51, 584.3, 7.91, 18.12), -- 24/7
+        gender = 'male'
+    },
+
+	{
+        model = `a_m_m_mexcntry_01`,
+        coords = vector4(-3243.13, 999.99, 12.83, 352.9), -- 24/7
+        gender = 'male'
+    },
+
+	{
+        model = `a_m_m_tranvest_01`,
+        coords = vector4(2556.63, 380.81, 108.62, 357.43), -- 24/7
+        gender = 'male'
+    },
+
+	{
+        model = `a_f_y_tourist_01`,
+        coords = vector4(549.19, 2670.89, 42.16, 97.98), -- 24/7
+        gender = 'female'
+    },
+
+	{
+        model = `a_f_y_indian_01`,
+        coords = vector4(2677.43, 3279.77, 55.24, 331.24), -- 24/7
+        gender = 'female'
+    },
+
+	{
+        model = `a_m_m_farmer_01`,
+        coords = vector4(1959.83, 3740.53, 32.34, 299.98), -- 24/7
+        gender = 'male'
+    },
+
+	{
+        model = `a_m_m_malibu_01`,
+        coords = vector4(1698.05, 4922.85, 42.06, 323.61), -- 24/7
+        gender = 'male'
+    },
+
+	{
+        model = `a_m_m_salton_02`,
+        coords = vector4(161.24, 6642.43, 31.71, 225.29), -- 24/7
+        gender = 'male'
+    },
+
+	{
+        model = `a_m_m_skidrow_01`,
+        coords = vector4(-422.46, 6136.53, 31.88, 227.67), -- 24/7
+        gender = 'male'
+    },
+
+	{
+        model = `a_f_m_fatbla_01`,
+        coords = vector4(2230.35, 5606.07, 54.87, 96.37), -- 24/7
+        gender = 'female'
+    },
+
+	{
+        model = `a_f_o_genstreet_01`,
+        coords = vector4(3801.04, 4476.41, 5.99, 172.94), -- 24/7
+        gender = 'female'
+    },
+
+	{
+        model = `a_f_m_soucentmc_01`,
+        coords = vector4(-1119.08, 2699.74, 18.55, 213.45), -- Ammo
+        gender = 'female'
+    },
+
+	{
+        model = `a_m_m_fatlatin_01`,
+        coords = vector4(253.85, -50.57, 69.94, 68.16), -- Ammo
+        gender = 'male'
+    },
+
+	{
+        model = `a_m_m_hasjew_01`,
+        coords = vector4(-662.61, -933.5, 21.83, 179.33), -- Ammo
+        gender = 'male'
+    },
+
+	{
+        model = `a_m_m_hasjew_01`,
+        coords = vector4(-112.26, 6471.09, 31.63, 134.88), -- Bank
+        gender = 'male'
+    },
+
+	{
+        model = `a_m_y_business_02`,
+        coords = vector4(1174.96, 2708.28, 38.09, 177.46), -- Bank
+        gender = 'male'
+    },
+
+	{
+        model = `a_m_y_mexthug_01`,
+        coords = vector4(-2961.16, 482.89, 15.7, 90.01), -- Bank
+        gender = 'male'
+    },
+
+	{
+        model = `a_m_y_hasjew_01`,
+        coords = vector4(-1211.87, -331.96, 37.78, 23.96), -- Bank
+        gender = 'male'
+    },
+
+	{
+        model = `a_m_y_business_02`,
+        coords = vector4(-351.28, -51.28, 49.04, 340.15), -- Bank
+        gender = 'male'
+    },
+
+	{
+        model = `a_f_y_femaleagent`,
+        coords = vector4(247.54, 224.91, 106.29, 145.96), -- Bank
+        gender = 'female'
+    },
+
+	{
+        model = `a_f_y_business_04`,
+        coords = vector4(950.15, 33.81, 71.84, 54.59), -- Bank
+        gender = 'female'
+    },
+
+	{
+        model = `a_f_y_business_01`,
+        coords = vector4(248.45, 224.59, 106.29, 166.05), -- Bank
+        gender = 'female'
+    },
+
+	{
+        model = `a_f_y_business_03`,
+        coords = vector4(313.77, -280.53, 54.16, 339.28), -- Bank
+        gender = 'female'
+    },
+
+	{
+        model = `a_f_y_bevhills_03`,
+        coords = vector4(149.48, -1042.09, 29.37, 339.63), -- Bank
+        gender = 'female'
+    },
+
+	{
+        model = `a_m_m_hasjew_01`,
+        coords = vector4(148.01, -1041.63, 29.37, 342.43), -- Bank
+        gender = 'male'
+    },
+
+	{
+        model = `a_m_y_busicas_01`,
+        coords = vector4(2403.93, 3128.74, 48.15, 189.45), -- Bank
+        gender = 'male'
+    },
+
+	{
+        model = `a_m_y_smartcaspat_01`,
+        coords = vector4(-2961.16, 482.51, 15.7, 79.86), -- Bank
+        gender = 'male'
+    },
+
+	{
+        model = `a_m_m_skidrow_01`,
+        coords = vector4(-1686.39, -1072.62, 13.15, 49.81), -- 24/7
+        gender = 'male'
+    },
 	
 	{
 		model = `ig_paper`, -- Model name as a hash.
